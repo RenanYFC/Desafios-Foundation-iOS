@@ -6,5 +6,5 @@
 //
 
 import Foundation
-
+verificarPar(5)
 verificarPrimo(num: 5)
