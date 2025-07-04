@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1416E0512E1752EC009D1D81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0502E1752EC009D1D81 /* main.swift */; };
+		1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1416E04D2E1752EC009D1D81 /* myCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		1416E04D2E1752EC009D1D81 /* Desafios Foundation iOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Desafios Foundation iOS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1416E0502E1752EC009D1D81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarNumeroPrimo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,8 @@
 		1416E0442E1752EC009D1D81 = {
 			isa = PBXGroup;
 			children = (
-				1416E04F2E1752EC009D1D81 /* myCommandLine */,
+				1416E0502E1752EC009D1D81 /* main.swift */,
+				1416E04F2E1752EC009D1D81 /* Aula01 */,
 				1416E04E2E1752EC009D1D81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,25 @@
 		1416E04E2E1752EC009D1D81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1416E04D2E1752EC009D1D81 /* myCommandLine */,
+				1416E04D2E1752EC009D1D81 /* Desafios Foundation iOS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1416E04F2E1752EC009D1D81 /* myCommandLine */ = {
+		1416E04F2E1752EC009D1D81 /* Aula01 */ = {
 			isa = PBXGroup;
 			children = (
-				1416E0502E1752EC009D1D81 /* main.swift */,
+				1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */,
 			);
-			path = myCommandLine;
+			path = Aula01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1416E04C2E1752EC009D1D81 /* myCommandLine */ = {
+		1416E04C2E1752EC009D1D81 /* Desafios Foundation iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1416E0542E1752EC009D1D81 /* Build configuration list for PBXNativeTarget "myCommandLine" */;
+			buildConfigurationList = 1416E0542E1752EC009D1D81 /* Build configuration list for PBXNativeTarget "Desafios Foundation iOS" */;
 			buildPhases = (
 				1416E0492E1752EC009D1D81 /* Sources */,
 				1416E04A2E1752EC009D1D81 /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = myCommandLine;
+			name = "Desafios Foundation iOS";
 			productName = myCommandLine;
-			productReference = 1416E04D2E1752EC009D1D81 /* myCommandLine */;
+			productReference = 1416E04D2E1752EC009D1D81 /* Desafios Foundation iOS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1416E0482E1752EC009D1D81 /* Build configuration list for PBXProject "myCommandLine" */;
+			buildConfigurationList = 1416E0482E1752EC009D1D81 /* Build configuration list for PBXProject "Desafios Foundation iOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1416E04C2E1752EC009D1D81 /* myCommandLine */,
+				1416E04C2E1752EC009D1D81 /* Desafios Foundation iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1416E0512E1752EC009D1D81 /* main.swift in Sources */,
+				1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1416E0482E1752EC009D1D81 /* Build configuration list for PBXProject "myCommandLine" */ = {
+		1416E0482E1752EC009D1D81 /* Build configuration list for PBXProject "Desafios Foundation iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1416E0522E1752EC009D1D81 /* Debug */,
@@ -276,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1416E0542E1752EC009D1D81 /* Build configuration list for PBXNativeTarget "myCommandLine" */ = {
+		1416E0542E1752EC009D1D81 /* Build configuration list for PBXNativeTarget "Desafios Foundation iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1416E0552E1752EC009D1D81 /* Debug */,
