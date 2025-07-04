@@ -10,6 +10,7 @@
 		1416E0512E1752EC009D1D81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0502E1752EC009D1D81 /* main.swift */; };
 		1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */; };
 		14D343AE2E17734000FBADCE /* VerificarPar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D343AD2E17734000FBADCE /* VerificarPar.swift */; };
+		14D343B02E17746500FBADCE /* CalcularFatorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D343AF2E17746500FBADCE /* CalcularFatorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		1416E0502E1752EC009D1D81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarNumeroPrimo.swift; sourceTree = "<group>"; };
 		14D343AD2E17734000FBADCE /* VerificarPar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarPar.swift; sourceTree = "<group>"; };
+		14D343AF2E17746500FBADCE /* CalcularFatorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcularFatorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */,
 				14D343AD2E17734000FBADCE /* VerificarPar.swift */,
+				14D343AF2E17746500FBADCE /* CalcularFatorial.swift */,
 			);
 			path = Aula01;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				1416E0512E1752EC009D1D81 /* main.swift in Sources */,
 				1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */,
+				14D343B02E17746500FBADCE /* CalcularFatorial.swift in Sources */,
 				14D343AE2E17734000FBADCE /* VerificarPar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

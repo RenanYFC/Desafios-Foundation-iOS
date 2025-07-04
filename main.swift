@@ -7,4 +7,5 @@
 
 import Foundation
 verificarPar(5)
+calcularFatorial(num: 5)
 verificarPrimo(num: 5)
