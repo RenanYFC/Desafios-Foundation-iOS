@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1416E0512E1752EC009D1D81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0502E1752EC009D1D81 /* main.swift */; };
 		1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */; };
+		146F3FA72E1A2A89007D5254 /* ValidarSenha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F3FA62E1A2A89007D5254 /* ValidarSenha.swift */; };
+		146F3FA92E1A2D9F007D5254 /* NumerosPrimosNaTabuada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F3FA82E1A2D9F007D5254 /* NumerosPrimosNaTabuada.swift */; };
+		146F3FAB2E1A3615007D5254 /* NumerosParesEmFatoriais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F3FAA2E1A3615007D5254 /* NumerosParesEmFatoriais.swift */; };
+		146F3FAD2E1A36C4007D5254 /* LoopComNumerosPares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F3FAC2E1A36C4007D5254 /* LoopComNumerosPares.swift */; };
 		14D343AE2E17734000FBADCE /* VerificarPar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D343AD2E17734000FBADCE /* VerificarPar.swift */; };
 		14D343B02E17746500FBADCE /* CalcularFatorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D343AF2E17746500FBADCE /* CalcularFatorial.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +33,10 @@
 		1416E04D2E1752EC009D1D81 /* Desafios Foundation iOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Desafios Foundation iOS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1416E0502E1752EC009D1D81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1416E0572E1765DE009D1D81 /* VerificarNumeroPrimo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarNumeroPrimo.swift; sourceTree = "<group>"; };
+		146F3FA62E1A2A89007D5254 /* ValidarSenha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidarSenha.swift; sourceTree = "<group>"; };
+		146F3FA82E1A2D9F007D5254 /* NumerosPrimosNaTabuada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerosPrimosNaTabuada.swift; sourceTree = "<group>"; };
+		146F3FAA2E1A3615007D5254 /* NumerosParesEmFatoriais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerosParesEmFatoriais.swift; sourceTree = "<group>"; };
+		146F3FAC2E1A36C4007D5254 /* LoopComNumerosPares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopComNumerosPares.swift; sourceTree = "<group>"; };
 		14D343AD2E17734000FBADCE /* VerificarPar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificarPar.swift; sourceTree = "<group>"; };
 		14D343AF2E17746500FBADCE /* CalcularFatorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcularFatorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				1416E0502E1752EC009D1D81 /* main.swift */,
+				146F3FA52E1A2971007D5254 /* Aula02 */,
 				1416E04F2E1752EC009D1D81 /* Aula01 */,
 				1416E04E2E1752EC009D1D81 /* Products */,
 			);
@@ -69,6 +78,17 @@
 				14D343AF2E17746500FBADCE /* CalcularFatorial.swift */,
 			);
 			path = Aula01;
+			sourceTree = "<group>";
+		};
+		146F3FA52E1A2971007D5254 /* Aula02 */ = {
+			isa = PBXGroup;
+			children = (
+				146F3FA62E1A2A89007D5254 /* ValidarSenha.swift */,
+				146F3FA82E1A2D9F007D5254 /* NumerosPrimosNaTabuada.swift */,
+				146F3FAA2E1A3615007D5254 /* NumerosParesEmFatoriais.swift */,
+				146F3FAC2E1A36C4007D5254 /* LoopComNumerosPares.swift */,
+			);
+			path = Aula02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1416E0512E1752EC009D1D81 /* main.swift in Sources */,
+				146F3FAD2E1A36C4007D5254 /* LoopComNumerosPares.swift in Sources */,
 				1416E0582E1765DE009D1D81 /* VerificarNumeroPrimo.swift in Sources */,
 				14D343B02E17746500FBADCE /* CalcularFatorial.swift in Sources */,
+				146F3FA92E1A2D9F007D5254 /* NumerosPrimosNaTabuada.swift in Sources */,
+				146F3FA72E1A2A89007D5254 /* ValidarSenha.swift in Sources */,
 				14D343AE2E17734000FBADCE /* VerificarPar.swift in Sources */,
+				146F3FAB2E1A3615007D5254 /* NumerosParesEmFatoriais.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
